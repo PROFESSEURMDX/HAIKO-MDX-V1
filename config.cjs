@@ -4,8 +4,8 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
-  PREFIX: process.env.PREFIX || '+',
+  SESSION_ID: process.env.SESSION_ID || "HAIKO~MDX~wBolWY6I#E_fxW4-sENo_e2gswSh37yYttME2k-wYEW9QbV7tBu4",
+  PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || '',
@@ -26,7 +26,7 @@ const config = {
   MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/wio44d.jpg",
   DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO HAIKO-MDX-V1",
   OWNER_NAME: process.env.OWNER_NAME || "𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "529633982655",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "18293511531",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
